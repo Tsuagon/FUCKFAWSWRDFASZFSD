@@ -897,7 +897,7 @@ function block()
   activu = true
   human:SetStateEnabled(15, false)
   local de = mouse.KeyUp:connect(function(key)
-    if key == "e" then
+    if key == "x" then
       bep = false
     end
   end)
@@ -971,7 +971,7 @@ function MUDA()
     end))
   end
   local de = mouse.KeyUp:connect(function(key)
-    if key == "r" then
+    if key == "e" then
       bep = false
     end
   end)
